@@ -27,8 +27,6 @@ scipy<1.3.0
 scikit-learn
 ```
 
-**Notes:** If you encountered the problem about ***the large file error*** with this repository when you *clone* by Git, maybe [Git Large File Storage (LFS)](<https://git-lfs.github.com/>) and  [Git LFS support](<https://github.com/rtyley/bfg-repo-cleaner/releases/tag/v1.12.5>)  will be helpful.
-
 ## Multi-mnist Experiments
 
 Multi-mnist based experiments include our method UDOR and S-AE, DSD methods as paper discussed. 
