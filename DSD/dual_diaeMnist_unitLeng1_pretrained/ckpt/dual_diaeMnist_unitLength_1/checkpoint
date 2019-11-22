@@ -1,0 +1,7 @@
+model_checkpoint_path: "dual_diaeMnist_unitLength_1-1860"
+all_model_checkpoint_paths: "dual_diaeMnist_unitLength_1-310"
+all_model_checkpoint_paths: "dual_diaeMnist_unitLength_1-620"
+all_model_checkpoint_paths: "dual_diaeMnist_unitLength_1-930"
+all_model_checkpoint_paths: "dual_diaeMnist_unitLength_1-1240"
+all_model_checkpoint_paths: "dual_diaeMnist_unitLength_1-1550"
+all_model_checkpoint_paths: "dual_diaeMnist_unitLength_1-1860"
