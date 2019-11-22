@@ -12,7 +12,7 @@ If you want to use pre-trained model, please download it from [One Drive](https:
 - [Multi-Fashion Experiments](#Multi-Fashion-Experiments)
 - [Object Position Experiments](#Object-Position-Experiments)
 - [Pattern-Design Experiments](#Pattern-Design-Experiments)
-- [Acknowledgement](Acknowledgement)
+- [Acknowledgement](#Acknowledgement)
 
 <!-- TOC -->
 
@@ -185,9 +185,9 @@ The top-left is the input with a ```batch_size=64``` of ```[...visualdata1.npz]`
 
 #### UDOR
 
-![UDOR_1](models_UDOR/Multi-Mnist/Visualization Example/input.png)
+![UDOR_1](models_UDOR/Multi-Mnist/Visualization%20Example/input.png)
 
-![UDOR_2](models_UDOR/Multi-Mnist/Visualization Example/output.png)
+![UDOR_2](models_UDOR/Multi-Mnist/Visualization%20Example/output.png)
 
 #### S-AE
 
@@ -197,9 +197,9 @@ The top-left is the input with a ```batch_size=64``` of ```[...visualdata1.npz]`
 
 #### DSD
 
-![DSD_1](DSD/Visualization Example/input.png)
+![DSD_1](DSD/Visualization%20Example/input.png)
 
-![DSD_2](DSD/Visualization Example/output.png)
+![DSD_2](DSD/Visualization%20Example/output.png)
 
 ### Calculate metrics
 
