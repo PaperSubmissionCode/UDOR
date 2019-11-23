@@ -7,7 +7,7 @@ Codes, datasets, pre-trained models and guides of paper: **Disassembling Object 
 <!-- TOC -->
 
 - [Dependencies](#Dependencies)
-- [Multi-mnist Experiments](#Multi-mnist-Experiments)
+- [Multi-MNIST Experiments](#Multi-MNIST-Experiments)
 - [Multi-Fashion Experiments](#Multi-Fashion-Experiments)
 - [Object Position Experiments](#Object-Position-Experiments)
 - [Pattern-Design Experiments](#Pattern-Design-Experiments)
