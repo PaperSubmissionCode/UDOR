@@ -2,7 +2,7 @@
 
 Codes, datasets and guides of paper: **Disassembling Object Representation without Labels**
 
-If you want to use pre-trained model, please download it from [One Drive](https://1drv.ms/u/s!AgDnjfnQi6vCa8V0gg6DBqknV_c?e=VOhw2P) and place the model to the corresponding path.
+## Index
 
 <!-- TOC -->
 
@@ -26,6 +26,8 @@ py-opencv
 scipy<1.3.0
 scikit-learn
 ```
+
+**Notes:** If you encountered the problem about ***the large file error*** with this repository when you *clone* by Git, you can refer to [Git Large File Storage (LFS)](<https://git-lfs.github.com/>) and  [Git LFS support](<https://github.com/rtyley/bfg-repo-cleaner/releases/tag/v1.12.5>)  to address this problem.
 
 ## Multi-mnist Experiments
 
