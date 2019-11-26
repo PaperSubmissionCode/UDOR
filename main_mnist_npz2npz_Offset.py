@@ -85,7 +85,6 @@ for i in range(1,2,1):
             maskArray[i * 8 + j] = maskTemp
     # reset imgs
     imgArray = np.empty((64, w, h, ch))
-    # 让训练集的第一张大图都是三个数字的
     MnistRandom012Array_norm_test64 = np.load(
         "multiMnistOffsetPositionDataset_32x32/MnistOffset{}_PositionRandom012Array_norm_test64.npz".format(max_offset))
     imgs = MnistRandom012Array_norm_test64['imgs']
