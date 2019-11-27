@@ -46,7 +46,7 @@ The dataset generation examples are give as follows:
 
 4. Run ```main_generateMultiMNISTforDSD.py``` to get **training datasets** for DSD which is saved in ```./npz_DSD_dataset/``` (for DSD)
 
-5. Run  ```./main_generate_MultiMnist_testAndmask_visual.py``` to get the **testing  datasets** saved in ```./npz_datas/```, There are ```mnist_(20x64)x32x32x1_unitLength1_test_visualdata1.npz```, ```mnist_(20x64)x32x32x1_unitLength1_test_visualdata2.npz```, ```DSD_data1_3_mnist_(20x64)x32x32x1_unitLength1_test.npz```, ```DSD_data2_mnist_(20x64)x32x32x1_unitLength1_test.npz```, and ```DSD_data4_mnist_(20x64)x32x32x1_unitLength1_test.npz```. The **[...visualdata1]** and **[...visualdata2]** are used for zero-reseting and object-swapping of SAE and our UDOR*. And other three datasets ( **[DSD_....]** ) are generated for DSD. 
+5. Run  ```./main_generate_MultiMnist_testAndmask_visual.py``` to get the **testing  datasets** saved in ```./npz_datas/```, There are ```mnist_(20x64)x32x32x1_unitLength1_test_visualdata1.npz```, ```mnist_(20x64)x32x32x1_unitLength1_test_visualdata2.npz```, ```DSD_data1_3_mnist_(20x64)x32x32x1_unitLength1_test.npz```, ```DSD_data2_mnist_(20x64)x32x32x1_unitLength1_test.npz```, and ```DSD_data4_mnist_(20x64)x32x32x1_unitLength1_test.npz```. The **[...visualdata1]** and **[...visualdata2]** are used for zero-reseting and object-swapping of SAE and our UDOR. And other three datasets ( **[DSD_....]** ) are generated for DSD. 
 
    We give a simple description of these five testing datasets in the following table. See more details from ```main_generate_MultiMnist_testAndmask_visual.py```.
 
@@ -258,7 +258,7 @@ python modularity_metrics_cal.py
 python classify_metrics_cal.py
 ```
 
-*Notes: The DSD is a semi-supervised method. The file ```main_generate_MultiMnist_testForMetrics.py``` dosen't need to be modified. *
+Notes: The DSD is a semi-supervised method. The file ```main_generate_MultiMnist_testForMetrics.py``` dosen't need to be modified.
 
 ## Multi-Fashion Experiments
 
