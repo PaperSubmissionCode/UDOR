@@ -26,7 +26,7 @@ scipy<1.3.0
 scikit-learn
 ```
 
-**Notes:** If you encountered the problem about ***the large file error*** with this repository when you *clone* by Git, you can refer to [Git Large File Storage (LFS)](<https://git-lfs.github.com/>) and  [Git LFS support](<https://github.com/rtyley/bfg-repo-cleaner/releases/tag/v1.12.5>)  to address this problem.
+**Notes:** If you encounter the problem about ***the large file error*** with this repository when you *clone* by Git, you can refer to [Git Large File Storage (LFS)](<https://git-lfs.github.com/>) and  [Git LFS support](<https://github.com/rtyley/bfg-repo-cleaner/releases/tag/v1.12.5>)  to address this problem.
 
 ## Multi-MNIST Experiments
 
@@ -38,7 +38,7 @@ Here, we set 'unitLength=1' as an example. The part length, which is the length 
 
 The dataset generation examples are give as follows:
 
-1. Run ```main_generate_MultiMNISTDataset.py``` to get  the **Multi-mnist datasets** from TensorFlow API (**only use train data through this API**), which will be used to produce the training datasets as ```npz``` format. It's saved in ```./multiMnistDataset_32x32/MnistRandom012ArrayNorm0_1.npz``` *(for UDOR)*
+1. Run ```main_generate_MultiMNISTDataset.py``` to get  the **Multi-mnist datasets** from TensorFlow API (*only use train data through this API*), which will be used to produce the training datasets as ```npz``` format. It's saved in ```./multiMnistDataset_32x32/MnistRandom012ArrayNorm0_1.npz``` *(for UDOR)*
 
 2. Run  ```main_generate_MultiMnist_trainAndtestAndmask.py``` to get the **training datasets** for UDOR which is saved in ```./npz_datas/unitLength1_mnistMultiAndMask_10000x32x32x1_train.npz``` *(for UDOR)*
 
@@ -46,9 +46,9 @@ The dataset generation examples are give as follows:
 
 4. Run ```main_generateMultiMNISTforDSD.py``` to get **training datasets** for DSD which is saved in ```./npz_DSD_dataset/``` (for DSD)
 
-5. Run  ```./main_generate_MultiMnist_testAndmask_visual.py``` to get the **testing  datasets** saved in ```./npz_datas/```, There are ```mnist_(20x64)x32x32x1_unitLength1_test_visualdata1.npz```, ```mnist_(20x64)x32x32x1_unitLength1_test_visualdata2.npz```, ```DSD_data1_3_mnist_(20x64)x32x32x1_unitLength1_test.npz```, ```DSD_data2_mnist_(20x64)x32x32x1_unitLength1_test.npz```, and ```DSD_data4_mnist_(20x64)x32x32x1_unitLength1_test.npz```. The **[...visualdata1] and [...visualdata2] are used for zero-reseting and object-swapping of SAE and our UDOR**. And other three datasets ( **[DSD_....]** ) are generated for DSD. 
+5. Run  ```./main_generate_MultiMnist_testAndmask_visual.py``` to get the **testing  datasets** saved in ```./npz_datas/```, There are ```mnist_(20x64)x32x32x1_unitLength1_test_visualdata1.npz```, ```mnist_(20x64)x32x32x1_unitLength1_test_visualdata2.npz```, ```DSD_data1_3_mnist_(20x64)x32x32x1_unitLength1_test.npz```, ```DSD_data2_mnist_(20x64)x32x32x1_unitLength1_test.npz```, and ```DSD_data4_mnist_(20x64)x32x32x1_unitLength1_test.npz```. The **[...visualdata1]** and **[...visualdata2]** are used for zero-reseting and object-swapping of SAE and our UDOR*. And other three datasets ( **[DSD_....]** ) are generated for DSD. 
 
-   We give a simple description of these five testing datasets in the following table. See more details from  See more details from ```main_generate_MultiMnist_testAndmask_visual.py```.
+   We give a simple description of these five testing datasets in the following table. See more details from ```main_generate_MultiMnist_testAndmask_visual.py```.
 
    |                                                     | [...visualdata1.npz]                                 | [...visualdata2.npz]                                   |
    | :-------------------------------------------------- | :--------------------------------------------------- | :----------------------------------------------------- |
@@ -75,7 +75,7 @@ cd models_UDOR/Multi-Mnist/MMNIST_GAN_1_1_10_1000_lr1e-3
 python main.py
 ```
 
-The intermediate result in training time will be saved in ```./models_UDOR/MNIST_GAN_1_1_10_1000_lr1e-3/samples/```
+The intermediate results in training time will be saved in ```./models_UDOR/MNIST_GAN_1_1_10_1000_lr1e-3/samples/```
 
 #### S-AE
 
@@ -85,7 +85,7 @@ cd SAE/SAE_part3_unitLength1
 python main.py
 ```
 
-The intermediate result in training time will be saved in ```./SAE/SAE_part3_unitLength1/samples/```
+The intermediate results in training time will be saved in ```./SAE/SAE_part3_unitLength1/samples/```
 
 #### DSD
 
@@ -95,7 +95,7 @@ cd DSD/dual_diaeMnist_unitLeng1
 python main.py
 ```
 
-The intermediate result in training time will be saved in ```./DSD/dual_diaeMnist_unitLeng1/samples/```
+The intermediate results in training time will be saved in ```./DSD/dual_diaeMnist_unitLeng1/samples/```
 
 
 
@@ -142,7 +142,7 @@ The results will be saved  in ```./DSD/dual_diaeMnist_unitLeng1/VisualImgsResult
 
 ### Test from pre-trained model
 
-For each method, we provide a pre-trained model, which can be used for quick visualization testing after datasets preparation. The pre-trained model is given in the anonymous Github repository (https://github.com/PaperSubmissionCode/UDOR).
+For each method, we provide a pre-trained model, which can be used for quick visualization testing after datasets preparation.
 
 #### UDOR
 
@@ -274,7 +274,7 @@ You should first ```cd models_UDOR/Multi-Fashion/``` directory.
 
 |                                                     | [...visualdata1.npz]                                         | [...visualdata2.npz]                                         |
 | :-------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| Each image                                          | random of T-shirt,Trouser,Bag,Ankle boot<br/>four fashion objects | random of T-shirt,Trouser,Bag,Ankle boot<br/>four fashion objects |
+| Each image                                          | composed by T-shirt,Trouser,Bag,Ankle boot randomly<br/>four fashion objects | composed by T-shirt,Trouser,Bag,Ankle boot randomly<br/>four fashion objects |
 | Four masks compose <br>one group <br>16 same groups | [0, 1, 1, 1],<br>[1, 0, 1, 1],<br>[1, 1, 0, 1],<br/>[1, 1, 1, 0] | [1, 0, 0, 0],<br/>[0, 1, 0, 0],<br/>[0, 0, 1, 0],<br/>[0, 0, 0, 1] |
 
 ### Train
